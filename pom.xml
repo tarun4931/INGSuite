@@ -65,16 +65,15 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<repository>
-			<id>deployment</id>
-			<name>Internal Release</name>
-			<url>http://13.234.122.54:8081/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
+			<repository>
+    			<id>releases</id>
+			<url>http://13.234.122.54:8081/nexus/content/repositories/releases</url>
+			</repository>
+			<snapshotRepository>
 			<id>deployment</id>
 			<name>Internal Snapshot Releases</name>
 			<url>http://13.234.122.54:8081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
+			</snapshotRepository>
 	</distributionManagement>
 
 	<build>
