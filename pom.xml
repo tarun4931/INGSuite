@@ -68,7 +68,7 @@
 		<repository>
 			<id>deployment</id>
 			<name>nexus_release</name>
-			<url>http://13.234.122.54:8081/nexus/content/repositories/deployment</url>
+			<url>http://13.234.122.54:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
